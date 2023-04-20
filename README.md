@@ -30,9 +30,13 @@
   * 懒汉式（线程不安全按、线程安全、双重校验锁、静态内部类）
 * 饿汉推荐使用枚举类实现，简单安全
 
-#### 6. [prototype](./src/prototype) 原型模式
+#### 6. [Prototype](./src/prototype) 原型模式
 * 原型模式的本质就是通过克隆对象来生成对象
 * 可以避免直接 new 具体类名 产生的耦合，便于代码复用
 * 在 Spring 中配置 bean 时可以指定 singleton 模式和 prototype 模式来生成对象
+
+#### 7. [Builder](./src/builder) 建造模式
+* 监工负责制造流程
+* 具体建造者负责具体方法的实现
 
 
